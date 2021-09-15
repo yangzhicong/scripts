@@ -1,7 +1,7 @@
 /*
 来客有礼小程序
 搬运不知名人士
-0 0 * * *
+0 0 * * * https://raw.githubusercontent.com/cdle/jd_study/main/jd_sendBeans.js
 */
 const $ = new Env('送豆得豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
