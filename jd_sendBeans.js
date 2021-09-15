@@ -1,8 +1,8 @@
 /*
-* 来客有礼小程序
-* 搬运不知名人士
-* 0 0 * * *
-* */
+来客有礼小程序
+搬运不知名人士
+0 0 * * *
+*/
 const $ = new Env('送豆得豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
