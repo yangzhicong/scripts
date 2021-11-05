@@ -1,7 +1,7 @@
 /*
 * 来客有礼小程序
 * 搬运不知名人士
-* cron 3 0 * * *
+* cron 0 0 * * *
 * */
 const $ = new Env('送豆得豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
